@@ -1,0 +1,1 @@
+fn(axum::Json<CreateUser>) -> impl Future<Output = (StatusCode, axum::Json<User>)> {create_user}
